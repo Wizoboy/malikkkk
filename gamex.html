@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+<link rel="icon" type="image/x-icon" href="public/G.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:purple;
+}
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:grey;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+        background-color: red;
+}
+</style>
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: inherit;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 65%;
+  left: -180%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 10px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+</head>
+
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">GAMES</a>
+    <div class="dropdown-content">
+      <a href="#">PLAYSTATION GAMES</a>
+      <a href="#">XBOX GAMES</a>
+      <a href="#">NINTENDO SWITCH GAMES</a>
+      <a href="#">ANDOID HACKED GAMES</a>
+      <a href="#">PC GAMES</a>
+    </div> 
+   <li class="dropdown">
+    <a href="#" class="dropbtn">EMULATOR</a>
+    <div class="dropdown-content">
+      <a href="#">PLAYSTATION EMULATOR</a>
+      <a href="#">XBOX EMULATOR</a>
+      <a href="#">NINTENDO EMULATOR</a>
+      <a href="#">ANDOID EMULATOR</a>
+      <a href="#">PC EMULATOR</a>
+    </div>
+    <li><a href="#home">JOIN US</a></li>
+    <li>
+ <div class="tooltip">
+<button class="button67"onclick="myFunction()"><i class="fa-solid fa-power-off fa-2x"></i></button>
+  <span class="tooltiptext" id="myTooltip">SWITCH MODES</span>
+</div></li>
+<style>
+body {
+  padding: 25px;
+  background-color: black;
+  color: purple;
+  user-select: none;
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+   overflow-y: scroll; 
+  overflow-x: scroll; 
+}
+      
+.dark-mode {
+  background-color: white;
+  color: black;
+}
+
+.button67 {
+          margin-top: 10px;
+          margin-right: -10px;
+          border: none;
+          background-color: inherit;
+          cursor: pointer;
+          overflow: hidden;
+}
+</style>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+   <li style="float:right"><style>
+input[list=games], select {
+    float: left;
+    width: 50%;
+    height: 990%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 0px solid purple;
+    border-radius:0px;
+    top: -30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  top: -3px;
+}
+
+form.example button {
+  width: 20%;
+  padding: 10px;
+  background: skyblue;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+  top: -3px;
+}
+</style>
+  <form class="example">
+  <input list="games" name="games" placeholder="Search...">
+  <datalist name="links" id="games">
+    <option value="FIFA">
+    <option value="C.O.D">
+    <option value="WWE">
+    <option value="PES">
+    <option value="GTA">
+    <option value="AND MORE...">
+  </datalist>
+    <button type="submit" formaction="index.html"><i class="fa fa-search"></i></button></li>
+   </form>
+  </li>
+</ul>
+<style>
+span.img img {
+    float: right;
+    border: 1px ;
+    margin: 0px 0px 15px
+}
+</style> 
+<h1 style="text-align:center;">GAMEX<br>{Home Of Games}</br></h1>
+<span class="img"><img src="public/gamex.jpg" width="100" height="80">Welcome to <strong>GAMEX</strong>{The home of games}here you would find exclusive games here and  many more {you would be stuck here i bet} you will find many games and emulators here to download such as PLAYSTATION GAMES,XBOX GAMES,NINTENDO SWITCH GAMES,ANDROID HACKED GAMES,EMULATORS,AND MORE.{TIP} Select The Type of Console game you want on the GAMES menu bar</span>
+<p style="text-align:center;">
+<h2 style="text-align:center;"><strong>SELECT THE GENRE</strong></h2>
+</body>
+<style>
+div.img {
+    margin: 11px;
+    margin-right:;
+    border: 1px solid #ccc;
+    float: left;
+    width: 290px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 150px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+.button1 {
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color:  #4CAF50; 
+    color: white; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: purple;
+    color: white;
+}
+</style>
+</head>
+
+
+<div class="img">
+  <a target="_self" href="page3.html">
+    <img src=" public/images (12).jpeg" alt="" width="300" height="200">
+  </a>
+  <div class="desc"><strong>SIMULATION<br><a href="public/page3.html"><button class="button button1">View</button></strong></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="page3.html">
+    <img src="public/images (10).jpeg" alt="Forest" width="200" height="200">
+  </a>
+  <div class="desc"><strong>FIGHTING<br><a href="public/page3.html"><button class="button button1">View</button></strong></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="page3.html">
+    <img src="public/images (5).jpeg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><strong>SPORTS<br><a href="public/page3.html"><button class="button button1">View</button></strong></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="page3.html">
+    <img src="public/images (6).jpeg" alt="Mountains" width="200" height="200">
+  </a>
+  <div class="desc"><strong>ADVENTURE<br><a href="public/page3.html"><button class="button button1">View</button></strong></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="page3.html">
+    <img src="public/images (7).jpeg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><strong>SHOOTING<br><a href="public/page3.html"><button class="button button1">View</button></strong></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="page3.html">
+    <img src="public/images (8).jpeg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><strong>RACING<br><a href="public/page3.html"><button class="button button1">View</button></strong></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="page3.html">
+    <img src="public/images (9).jpeg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><strong>RPG<br><a href="public/page3.html"><button class="button button1">View</button></strong></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="page3.html">
+    <img src="public/uncharted-4_hjhq.1920.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><strong>ACTION<br><a href="public/page3.html"><button class="button button1">View</button></strong></a></strong></div>
+</div>
+<style>
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    float: center;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid ;
+    font-size: 18px;
+    float: center;
+}
+
+ul.pagination li a.active {
+    background-color: grey;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: grey;}
+
+span.fid{
+        font-size: 30px;
+}
+.button2 {
+    background-color: blue; 
+    border-radius: 50px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color:  red; 
+    color: white; 
+    border: 2px solid red;
+}
+
+.button2:hover {
+    background-color: orange;
+    color: white;
+}
+</style>
+
+<style>
+#more {display: none;}
+
+.button8 {
+        background-color: orange;
+        border-radius:  50px 2900px;
+        font-size: 17px;
+        color: black;
+        border-style: none;
+}
+</style>
+
+</body>
+<style>
+#more {display: none;}
+
+.yup {
+      background-color: orange;
+      border: none; 
+      border-radius: 0px 50px;
+}
+</style>
+</head>
+<body>
+
+<p><br><strong><b>Note: Gamex are for gamers only,if you are a gamer gamex is your home enjoy and play alot of games and run emulator on pc and android device, if you don't have a console don't be deppressed here in gamex we have many emulators suitable for android devices and for personal computer{PC} to be alligible to all console emulator you would need to download <br><ins>Microsoft C++ 2000-2023</ins> to activate the emulator{WINDOWS ONLY} run PS1,PS2,PS3,PS4,XBOX,XB0X 360,NDS,WII U,NINTENDO SWITCH,ANDROID,PC,PS VITA, PSP EMULATOR ON YOUR MOBILE DEVICE AND PERSONAL COMPUTER{PC}.Scroll down to download your favourite emulator</b></strong><span id="dots">...</span><span id="more"> , Microsoft Visual C++ 2015 Redistributable installs run-time components of Visual C++ libraries. These components are required to run C++ applications that are developed using Visual Studio 2015 Update 3 RC and link dynamically to Visual C++ libraries. The packages can be used to run such applications on a computer even if it does not have Visual Studio 2015 installed. These packages also install run-time components of C Runtime (CRT), Standard C++, MFC, C++ AMP, and OpenMP libraries. Microsoft Visual C++ 2015 Redistributable includes bug fixes to the runtime DLLs and also the latest versions for KB 2999226. To find out what's new in Visual Studio 2015 Update 3 RC.</span></p>
+<button class="yup"onclick="myFun()" id="myBtn">Read more</button>
+
+<script>
+function myFun() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<center><span class="fid"><strong><b>LIST OF EMULATORS</b></strong><br><strong><b></span></center><br>
+<center>
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/ps1.png" alt="" width="300" height="200">
+  </a>
+  <div class="desc"><strong>PSX<br><a href="public/epsxe-2-0-5.zip"><button class="button button1">EXE</button></strong></a><a href="public/epsxe-apk-v2.0.16.apk"><button class="button button2">APK</button></a></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/ps2.jpeg" width="200" height="200">
+  </a>
+  <div class="desc"><strong>PS2<br><a href="public/pcsx2-v1.6.0-windows-32bit-installer.exe"><button class="button button1">EXE</button></strong></a><a href="public/aethersx2-v1-5-4248.apk"><button class="button button2">APK</strong></button></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/ps3.jpg" alt="" width="600" height="400">
+  </a>
+  <div class="desc"><strong>PS3<br><a href=""><button class="button button1">EXE</button></strong></a><a href="public/ps3emulator.apk"><button class="button button2">APK</strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/ps4.jpeg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><strong>PS4<br><a href="public/rpcs4-emulator-update.7z"><button class="button button1">EXE</button></strong></a><button class="button button2">APK</strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/pspp.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><strong>PSP<br><a href="public/PPSSPPSetup.exe"><button class="button button1">EXE</button></strong></a><a href="public/pspemulator.apk"><button class="button button2">APK</strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/psvita.jpg" width="600" height="400">
+  </a>
+  <div class="desc"><strong>PS VITA<br><a href="public/windows-latest.zip"><button class="button button1">EXE</button></strong></a><a href="public/vita3k-android-release-8.apk"><button class="button button2">APK</button></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/xbpx.jpg" width="600" height="400">
+  </a>
+  <div class="desc"><strong>XBOX<br><a href="public/CxbxReloaded-Release-VS2022.zip"><button class="button button1">EXE</button></strong></a><a href="public/xBox_Emulator.apk"><button class="button button2">APK</strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/xbox2.png" width="600" height="400">
+  </a>
+  <div class="desc"><strong>XBOX 360<br><a href="public/x360ce.zip"><button class="button button1">EXE</button></strong></a><a href="public/xenia-emulator-update.apk"><button class="button button2">APK</strong></button></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/3ds.webp" alt="" width="" height="">
+  </a>
+  <div class="desc"><strong>NINTENDO 3DS<br><a href="public/citra-setup-windows.exe"><button class="button button1">EXE</button></strong></a><a href="public/3ds-emulator-3dse.apk"><button class="button button2">APK</strong></button></a></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/wii.jpg" alt="Forest" width="" height="">
+  </a>
+  <div class="desc"><strong>NINTENDO WII<br><a href="public/dolphin-master-5.0-19870-x64 (1).7z"><button class="button button1">EXE</button></strong></a><a href="public/dolphin-master-5.0-19870.apk"><button class="button button2">APK</strong></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/wii u.png" alt="Northern Lights" width="" height="">
+  </a>
+  <div class="desc"><strong>WII U<br><a href="public/cemu_1.26.2.zip"><button class="button button1">EXE</button></strong></a><a href="public/cemu-emulator-update-apkod.apk"><button class="button button2">APK</button></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/nintendo switch.jpg" alt="Northern Lights" width="" height="">
+  </a>
+  <div class="desc"><strong>SWITCH<br><a href="public/yuzu-emulator-0.1.0-installer_U-X1731.exe"><button class="button button1">EXE</button></strong></a><a href="public/yuzu-emulator-update.apk"><button class="button button2">APK</button></a></strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/MicrosoftVista-4x3.webp" alt="Mountains" width="" height="">
+  </a>
+  <div class="desc"><strong>WINDOW <br><a href=""><button class="button button1">EXE</button></strong></a><button class="button button2">APK</strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/android.png" alt="Northern Lights" width="" height="">
+  </a>
+  <div class="desc"><strong>ANDROID <br><a href="public/BlueStacksInstaller_5.14.0.1061_native_a205a6be2462fafd540285b26417bd70_MDs1LDM7MTUsMTsxNSw0OzE1.apk"><button class="button button1">DOWNLOAD </button></strong></a></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/sega.jpg" alt="Northern Lights" width="" height="">
+  <div class="desc"><strong>SEGA<br><a href=""><button class="button button1">EXE</button></strong></a><button class="button button2">APK</strong></div>
+</div>
+
+<div class="img">
+  <a target="_self" href="#download apk or android">
+    <img src="public/gba.jpg" alt="Northern Lights" width="" height="">
+  </a>
+  <div class="desc"><strong>GBA<br><a href="public/visualboyadvance-m-Win-x86_64.exe"><button class="button button1">EXE</button></strong></a><a href="public/my-boy-free-gba-emulator-1-8-0-1.apk"><button class="button button2">APK</strong></a></div>
+</div>
+</center>
+<style>
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: ;}
+
+ul.pagination li a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid ;
+    font-size: 18px;
+}
+
+ul.pagination li a.active {
+    background-color: grey;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: grey;}
+</style>
+<center><br><br><br><br><br>
+<ul class="pagination">
+ <li><a href="public/page4.html"><i class="fa-solid fa-right-long fa-5x fa-beat fade"></i></li>
+</ul>
+</center>
+</html>
+
+
+
+
+
+
